@@ -11,7 +11,7 @@ describe "Artist" do
     end
 
     describe "#name" do
-      it "has an attr_accessor for name" do
+      it "has an attr_accessor for name" do    # attr_accessor always first 
         expect(adele.name).to eq("Adele")
       end
     end
